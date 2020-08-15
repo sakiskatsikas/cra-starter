@@ -1,0 +1,26 @@
+{
+  "name": "@sakiskatsikas/create-react-component",
+  "version": "1.0.0",
+  "description": "CLI tool to create new React Components based in Atomic Design System",
+  "bin": {
+    "@sakiskatsikas/create-react-component": "bin/create-react-component",
+    "create-react-component": "bin/create-react-component"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-react-component"
+  ],
+  "author": "Sakis Katsikas",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.3"
+  }
+}
