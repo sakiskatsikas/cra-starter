@@ -125,7 +125,7 @@ export default `
     border: ${recipe.border};
     min-width: ${dimension.textareaMinWidth};
     background-color: white;
-    max-width: 30rem;
+    max-width: ${dimension.inputMaxWidth};
   }
 
   pre {
