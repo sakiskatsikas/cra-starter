@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Global, css } from '@emotion/core';
-import globalStyles from 'styles/global';
+import initStyles from 'styles/initStyles';
 import logo from 'assets/logo.svg';
 
 import { Header, Main } from 'components/containers';
@@ -12,7 +12,7 @@ const App: FC = () => {
     <>
       <Global
         styles={css`
-          ${globalStyles}
+          ${initStyles}
         `}
       />
 

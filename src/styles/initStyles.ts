@@ -1,6 +1,6 @@
 import theme from './theme';
 
-const { font, fontSize, color, spacing, dimension, global, recipe } = theme;
+const { font, fontSize, color, spacing, dimension, globals, recipe } = theme;
 
 export default `
   *,
@@ -110,10 +110,10 @@ export default `
     margin-bottom: ${spacing.body};
     height: ${dimension.inputHeight};
     border: ${recipe.border};
-    border-radius: ${global.borderRadius};
+    border-radius: ${globals.borderRadius};
     padding: ${spacing.body};
     background-color: white;
-    max-width: 30rem;
+    max-width: ${dimension.inputMaxWidth};
   }
 
   textarea {

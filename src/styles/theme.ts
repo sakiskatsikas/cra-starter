@@ -1,19 +1,19 @@
 const color = {
   body: '#222222',
   primary: '#663399',
-  secondary: '#b4e5db'
-}
+  secondary: '#b4e5db',
+};
 
 const colorActive = {
   bodyActive: `${color.body}AA`,
   primaryActive: `${color.primary}AA`,
-  secondaryActive: `${color.secondary}AA`
-}
+  secondaryActive: `${color.secondary}AA`,
+};
 
 export default {
   font: {
     headings: "'Playfair Display', sans-serif;",
-    body: "'Montserrat', sans-serif;"
+    body: "'Montserrat', sans-serif;",
   },
   fontSize: {
     xsmall: '.25rem',
@@ -22,11 +22,11 @@ export default {
     medium: '1.5rem',
     large: '2rem',
     xlarge: '3rem',
-    xxlarge: '6rem'
+    xxlarge: '6rem',
   },
   color: {
     ...color,
-    ...colorActive
+    ...colorActive,
   },
   spacing: {
     xxsmall: '.125rem',
@@ -36,15 +36,16 @@ export default {
     medium: '1.5rem',
     large: '2rem',
     xlarge: '3rem',
-    xxlarge: '6rem'
+    xxlarge: '6rem',
   },
   dimension: {
     inputHeight: '3rem',
+    inputMaxWidth: '30rem',
     textareaHeight: '9rem',
-    textareaMinWidth: '10rem'
+    textareaMinWidth: '10rem',
   },
-  global: {
-    borderRadius: '.25rem'
+  globals: {
+    borderRadius: '.25rem',
   },
   recipe: {
     border: `1px solid ${color.primary}`,
@@ -57,6 +58,6 @@ export default {
       &:active {
         color: #ffffff;
       }
-    `
-  }
-}
+    `,
+  },
+};

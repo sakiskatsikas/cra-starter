@@ -18,9 +18,9 @@ test('renders the component', () => {
 export default function createTest(options, basePath) {
   const { componentName, directory } = options;
   const content = generateTest(componentName);
-  const name = `${basePath}/${directory}/${componentName}/${componentName}.spec.js`;
+  const name = `${basePath}/${directory}/${componentName}/${componentName}.test.js`;
   fs.writeFile(name, content, (err) => {
     if (err) throw err;
-    console.log(`%s ${componentName}.spec.js`, chalk.green.bold('Created:'));
+    console.log(`%s ${componentName}.test.js`, chalk.green.bold('Created:'));
   });
 }
