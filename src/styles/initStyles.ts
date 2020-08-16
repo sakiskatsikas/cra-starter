@@ -121,7 +121,7 @@ export default `
     padding: ${spacing.body};
     margin-bottom: ${spacing.body};
     height: ${dimension.textareaHeight};
-    border-radius: ${global.borderRadius};
+    border-radius: ${globals.borderRadius};
     border: ${recipe.border};
     min-width: ${dimension.textareaMinWidth};
     background-color: white;
