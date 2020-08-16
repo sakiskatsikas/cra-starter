@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Global, css } from '@emotion/core';
 import globalStyles from 'styles/global';
 import logo from 'assets/logo.svg';
@@ -7,7 +7,7 @@ import { Header, Main } from 'components/containers';
 
 import { StyledApp } from './App.sc';
 
-function App() {
+const App: FC = () => {
   return (
     <>
       <Global
@@ -30,6 +30,6 @@ function App() {
       </StyledApp>
     </>
   );
-}
+};
 
 export default App;
